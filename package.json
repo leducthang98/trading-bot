@@ -1,0 +1,32 @@
+{
+  "name": "trading-bot",
+  "version": "0.0.1",
+  "description": "self project for trading bot",
+  "author": "Thomas Le",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/index.ts",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
+  },
+  "dependencies": {
+    "class-validator": "0.14.0",
+    "dotenv": "16.4.5"
+  },
+  "devDependencies": {
+    "@moneteam/eslint-plugin-nestjs": "1.6.0",
+    "@trivago/prettier-plugin-sort-imports": "4.3.0",
+    "@types/node": "22.10.1",
+    "@typescript-eslint/eslint-plugin": "5.59.1",
+    "@typescript-eslint/parser": "5.59.1",
+    "eslint": "8.39.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "eslint-plugin-sonarjs": "0.19.0",
+    "eslint-plugin-unicorn": "46.0.0",
+    "prettier": "2.8.8",
+    "ts-node": "10.9.1",
+    "typescript": "4.9.5"
+  }
+}
